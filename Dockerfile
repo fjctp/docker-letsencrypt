@@ -9,4 +9,4 @@ RUN set -xe \
 VOLUME ["/etc/letsencrypt"]
 EXPOSE 80 443
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["certbot"]
